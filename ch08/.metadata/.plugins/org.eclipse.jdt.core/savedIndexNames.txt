@@ -1,0 +1,9 @@
+INDEX VERSION 1.130+/Users/prabathsiriwardana/books/new-samples/samples/ch08/.metadata/.plugins/org.eclipse.jdt.core
+4070039260.index
+2299154938.index
+634333959.index
+12361397.index
+327482933.index
+2348125924.index
+1217594124.index
+3516551862.index

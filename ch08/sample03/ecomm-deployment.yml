@@ -1,0 +1,20 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: ecomm-deployment
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: ecomm-deployment
+    spec:
+      containers:
+        - name: orderprocessing
+          image: prabath/sample04
+          ports:
+            - containerPort : 9000
+        - name: inventory
+          image: prabath/sample02
+          ports:
+            - containerPort : 9090

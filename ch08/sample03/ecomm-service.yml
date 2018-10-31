@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ecomm-service
+spec:
+  selector:
+    app: ecommapp
+  ports:
+    - port: 80
+      targetPort: 9000
+  type: NodePort

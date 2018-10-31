@@ -1,0 +1,2 @@
+
+Akka - AMQP producer/consumer 

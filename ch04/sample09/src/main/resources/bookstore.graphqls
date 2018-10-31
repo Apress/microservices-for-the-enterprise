@@ -1,0 +1,21 @@
+
+
+
+type Query {
+    books: [Book]
+    findAuthor(name: String): [Author]
+}
+
+type Book {
+    id: String
+    title: String
+    category: String
+    authors: [Author]
+}
+
+type Author {
+    id: String
+    name: String
+    address: String
+
+}

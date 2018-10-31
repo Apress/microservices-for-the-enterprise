@@ -1,0 +1,6 @@
+server.port=9000
+#management.endpoints.web.exposure.include = health,info,httptrace
+#opentracing.zipkin.http-sender.baseUrl=http://localhost:9411/
+opentracing.jaeger.http-sender.url=http://localhost:16686/
+spring.application.name=sample0
+spring.sleuth.sampler.percentage=0.5

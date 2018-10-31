@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.apress.ch13.sample03.model.Order"/>
+<fullyQualifiedTypeName name="com.apress.ch13.sample04.model.Order"/>
+<fullyQualifiedTypeName name="com.apress.ch13.sample05.model.Order"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
+<fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
+<fullyQualifiedTypeName name="org.springframework.web.client.RestTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="io.prometheus.client.spring.boot.SpringBootMetricsCollector"/>
+</qualifiedTypeNameHistroy>

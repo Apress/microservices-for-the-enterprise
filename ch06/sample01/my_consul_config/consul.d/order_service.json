@@ -1,0 +1,1 @@
+{"service": {"name": "order_service", "tags": ["order-mgt"], "port": 80}}

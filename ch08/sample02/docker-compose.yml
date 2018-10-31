@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+  inventory:
+    image: sample02
+    ports:
+      - "9090:9090"
+    restart: always
+  orderprocessing:
+    image: sample01
+    restart: always
+    ports:
+      - "9000:9000"
+    depends_on:
+      - inventory

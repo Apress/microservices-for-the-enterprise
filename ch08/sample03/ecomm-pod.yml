@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ecomm-pod
+  labels:
+    app: ecommapp
+spec:
+  containers:
+    - name: orderprocessing
+      image: prabath/sample04
+      ports:
+        - containerPort : 9000
+    - name: inventory
+      image: prabath/sample02
+      ports:
+        - containerPort : 9090

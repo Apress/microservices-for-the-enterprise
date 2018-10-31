@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+package com.apress.ch04.sample05.service;
+
+message Item {
+    string code = 1;
+    int32 qty = 2;
+}
+
+message ItemList {
+    repeated Item item = 1;
+}
+
+message UpdateItemsResp {
+        string code = 1;
+}
+
+service InventoryService {
+    rpc updateItems(ItemList) returns (UpdateItemsResp);
+}

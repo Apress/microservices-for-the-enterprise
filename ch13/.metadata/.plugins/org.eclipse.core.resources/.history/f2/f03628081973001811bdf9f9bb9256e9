@@ -1,0 +1,6 @@
+server.port=9000
+#opentracing.jaeger.http-sender.url=http://localhost:16686/
+opentracing.jaeger.udp-sender.host=localhost
+opentracing.jaeger.udp-sender.port=5775
+spring.application.name=sample05
+spring.sleuth.sampler.percentage=0.5

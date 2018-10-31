@@ -1,0 +1,5 @@
+server.port=9000
+#management.endpoints.web.exposure.include = health,info,httptrace
+opentracing.zipkin.http-sender.baseUrl=http://localhost:9411/
+spring.application.name=sample01
+spring.sleuth.sampler.percentage=0.5
