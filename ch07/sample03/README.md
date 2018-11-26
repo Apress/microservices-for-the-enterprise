@@ -3,6 +3,7 @@
 
 This sample demonstrate JMS message consuming and producing capabilities of Spring Boot. 
 
+
 - The JMS producer and consumer uses Active MQ as the message broker. 
 - You can download and start ActiveMQ with the default configuration. 
 - Then run the sample with ```$ mvn spring-boot:run ```
