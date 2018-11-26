@@ -1,2 +1,0 @@
-
-Vert.x HTTP service
