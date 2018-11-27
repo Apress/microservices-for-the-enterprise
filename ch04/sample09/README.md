@@ -1,10 +1,10 @@
-# GraphQL with Spring Boot  
+## Chapter 4: Developing Services (Sample09/GraphQL)
+  
 
-1. You can run the BookStore GraphQL service with :
-
+1. You can run the BookStore GraphQL service with the following command from sample09 directory :
 
 ``` 
-mvn spring-boot:run
+:\> mvn spring-boot:run
 ```
 
 2. Once the service is up and running you can access the GraphiQL UI via:
